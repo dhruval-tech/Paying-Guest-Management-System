@@ -57,7 +57,6 @@ D:\Dhruval\github\Paying-Guest-Management-System\PG\bin\Debug\netcoreapp3.1\runt
 D:\Dhruval\github\Paying-Guest-Management-System\PG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Dhruval\github\Paying-Guest-Management-System\PG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Dhruval\github\Paying-Guest-Management-System\PG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.csprojAssemblyReference.cache
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.AssemblyInfoInputs.cache
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.AssemblyInfo.cs
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.RazorAssemblyInfo.cache
@@ -161,3 +160,4 @@ D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.M
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Dhruval\github\Paying-Guest-Management-System\PG\obj\Debug\netcoreapp3.1\PG.csprojAssemblyReference.cache
