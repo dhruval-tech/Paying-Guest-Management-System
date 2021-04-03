@@ -1,0 +1,87 @@
+﻿@model PG.Models.Pg_Owner;
+@{
+    ViewData["Title"] = "AddPg";
+}
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="~/assets/css/login.css">
+
+<main class="d-flex align-items-center min-vh-100 py-5 py-md-0">
+    <div class="container">
+        <div class="card login-card">
+            <div class="row no-gutters">
+                <div class="col-md-5">
+                    <img src="~/img/r1.jpg" alt="login" class="login-card-img">
+                </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+                        <div class="brand-wrapper">
+                            <img src="~/img/d1.png" alt="logo" class="logo">
+                        </div>
+                        <p class="login-card-description">Add Your PG</p>
+                        <form method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                            <div class="form-group">
+                                <label asp-for="PgName" class="sr-only">Pg Name</label>
+                                <input asp-for="PgName" type="text" class="form-control" placeholder="Enter PG Name" required>
+                                <span asp-validation-for="PgName" class="text-danger"></span>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Address" class="sr-only">Address</label>
+                                <input class="form-control" asp-for="Address" placeholder="Address" required>
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Contact" class="sr-only">Contact</label>
+                                <input class="form-control" asp-for="Contact" placeholder=" Contact" required>
+                                <span asp-validation-for="Contact" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+
+                                <input asp-for="Gender" type="radio" name="Gender" value="Male" style="margin-left: 10px;">
+                                <label for="male" style="font-size:large ; margin-left:0px; "><font color="black">Male</font></label>
+                                <input asp-for="Gender" type="radio" name="Gender" value="Female" style="margin-left: 10px;">
+                                <label for="female" style="font-size:large ; margin-left:0px; "><font color="black">Female [Gender]</font></label>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Vacancy" class="sr-only">Vacancy</label>
+                                <input class="form-control" asp-for="Vacancy" placeholder="Vacancy" required>
+                                <span asp-validation-for="Vacancy" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Rent" class="sr-only">Rent</label>
+                                <input class="form-control" type="number" asp-for="Rent" placeholder="Rent" required>
+                                <span asp-validation-for="Rent" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+
+                                <input asp-for="IsAc" type="radio" name="IsAc" value="Yes" style="margin-left: 10px;">
+                                <label for="male" style="font-size:large ; margin-left:0px; "><font color="black">Yes</font></label>
+                                <input asp-for="IsAc" type="radio" name="IsAc" value="No" style="margin-left: 10px;">
+                                <label for="female" style="font-size:large ; margin-left:0px; "><font color="black">No [Is Ac?]</font></label>
+                                <span asp-validation-for="IsAc" class="text-danger"></span>
+
+                            </div>
+                            <p class="login-card-footer-text">Already Fill up Details <a asp-action="AddImages" asp-controller="Pg" class="text-reset">Add more images</a></p>
+
+                            <button type="submit" class="btn btn-block login-btn mb-4">Add</button>
+
+                        </form>
+                        <nav class="login-card-footer-nav">
+                            <a href="#!">Terms of use.</a>
+                            <a href="#!">Privacy policy</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
